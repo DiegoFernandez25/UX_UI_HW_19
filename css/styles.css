@@ -1,0 +1,83 @@
+body {
+    background-color: cadetblue;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+    
+.inline-blockandlogo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+.herolmg {
+    width: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin:0 auto
+}
+footer {
+    background-color: #373738;
+    padding-right: 500px;
+}
+
+
+
+.flexContainer {
+  display:flex;
+  justify-content: space-around;
+}
+
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  font-size: large;
+  font-style: normal;
+  color: #4F5954;
+}
+
+#myWork-Grid {
+    display: grid;
+    grid-template-rows: max-content 3fr 3fr 3fr max-content;
+    padding: 25px;
+    margin: 0 auto;
+    
+  }
+  
+  .project-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    color: #4F5954;
+    font-size: normal;
+  }
+
+
+@media (max-width: 600px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+  .project-card {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  #myWork-Grid {
+    grid-template-rows: max-content;
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+}
