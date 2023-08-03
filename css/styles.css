@@ -3,43 +3,63 @@ html {
 }
 
 body {
-    background-color: cadetblue;
+  background-color: blue
 }
+
 .inline-block {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
-    
-.inline-blockandlogo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+  
+.logo {
+  width: 23%;
+  padding: 1%;
 }
+  
 nav {
-    width: 73%;
-    padding: 1%;
+  width: 73%;
+  padding: 1%;
 }
+
 ul {
-    width: 50%;
-    margin-left: auto;
+  width: 50%;
+  margin-left: auto;
+  background-color: #373738;
+  padding: 20px;
 }
-.herolmg {
-    width: 600px;
-    padding: 25px;
+.logo img {
+  width: 150px;
+  padding: 25px;
+  margin-left: auto;
 }
+
+.heroImg {
+  height: 600px;
+  padding: 25px;
+}
+
 .content {
-    width: 500px;
-    margin:0 auto
+  width: 500px;
+  padding: 20px;
 }
+
 footer {
-    background-color: #373738;
-    padding-right: 500px;
+  background-color: #373738;
+  padding: 20px;
 }
 
+ul {
+  display: inline-block;
+  vertical-align: top;
+}
 
+li {
+  padding: 10px;
+  text-align: center;
+}
 
-.flexContainer {
-  display:flex;
+#myskills{
+  display: flex;
   justify-content: space-around;
 }
 
@@ -48,25 +68,10 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   width: 30%;
-  font-size: large;
-  font-style: normal;
-  color: #4F5954;
 }
-
-#myWork-Grid {
-    display: grid;
-    grid-template-rows: max-content 3fr 3fr 3fr max-content;
-    padding: 25px;
-    margin: 0 auto;
-    
-  }
-  
-  .project-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px;
-    color: #4F5954;
-    font-size: normal;
+#myWork-Grid{
+  background-color: #4174D9;
+}
   }
 
 
