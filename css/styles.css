@@ -4,6 +4,7 @@ html {
 
 body {
   background-color: #1b418c;
+
 }
 
 .inline-block {
@@ -18,8 +19,7 @@ body {
   
 nav {
   width: 73%;
-  background-color: #434F59
- 
+  background-color: #434F59;
 }
 
 ul {
@@ -75,6 +75,7 @@ li {
 #myWork-Grid{
   padding: auto;
 }
+
 
 
 

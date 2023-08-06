@@ -9,8 +9,8 @@
       <div class="inline-block logo">
         <img src="images/1 1.png"
         height="150">
-        
-      </div>
+    </div>
+
       <nav class="inline-block">
         <li href="inline-block"><a>About</a></li>
         <li><a href="#mySkills">Skills</a></li>
@@ -93,6 +93,31 @@
   </footer>
   
 </body>
-<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-<script src="css/index.js"></script>
-</html>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/index.js"></script>
+<script> 
+    $(document).ready(function(){
+      $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+      });
+    });
+    </script>
+    <style> 
+    
+    #panel, #flip {
+      padding: 5px;
+      text-align: center;
+      background-color: #e5eecc;
+      border: solid 1px #c3c3c3;
+    }
+    
+    #panel {
+      padding: 50px;
+      display: none;
+    }
+    </style>
+    </head>
+    <body>
+     
+    <div id="flip">Click to slide down panel</div>
+    <div id="panel">Hello world!</div>
