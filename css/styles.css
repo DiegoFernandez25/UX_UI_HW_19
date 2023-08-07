@@ -9,17 +9,17 @@ body {
 
 .inline-block {
   display: inline-flex;
-  vertical-align: top;
 }
   
 .logo {
   vertical-align: top;
   padding: 20px;
-}
   
+}
+
 nav {
-  width: 73%;
-  background-color: #434F59;
+  width: 88%;
+  background-color: #79818C;
 }
 
 ul {
@@ -32,22 +32,25 @@ ul {
   width: 150px;
   padding: 25px;
   margin-left: auto;
+  
 }
 
 .heroImg {
   height: 600px;
-  padding: 20px;
-  background-color: #434F59
+  padding: 5px;
+  background-color: #79818C;
+  width: 40%;
+  margin-left: 40%;
+  font-size: larger;
 }
 
 .content {
   width: 500px;
-  padding: 20px;
 }
 
 footer {
   padding: 20px;
-  background-color:#434F59
+  color: black;
 }
 
 ul {
@@ -71,11 +74,33 @@ li {
   justify-content: space-between;
   width: auto;
   padding: auto;
-}
-#myWork-Grid{
-  padding: auto;
+  background-color: #79818C;
 }
 
+#myWork-Grid{
+  display: grid;
+  justify-content: space-evenly;
+  text-align:center;
+  font-size: large;
+}
+
+.project-card {
+  display: grid;
+  justify-content: space-evenly;
+  text-align:center;
+}
+
+div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+div.center {
+  display: flex;
+  justify-content: center;
+}
 
 
 
