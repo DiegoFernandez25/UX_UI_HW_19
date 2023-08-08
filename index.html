@@ -5,102 +5,8 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="navigation">
-      <div class="inline-block logo">
-        <img src="images/1 1.png"
-        height="150">
-    </div>
 
-      <nav class="inline-block">
-        <li href="inline-block"><a>About</a></li>
-        <li><a href="#mySkills">Skills</a></li>
-        <li><a href="#myWork-Grid">Work</a></li>
-        <li><a href="#">Contact</a></li>
-</ul>
-</nav>
-</header>
-</body>
-
-<section class="heroImg">
-    <div class="content">
-      <img src="images/IMG_3327 2.JPG" height="250">
-      <p>Hello, I am Diego Fernandez, an up and coming UX/UI Designer. I recently graduated from UTSA and am looking at an opportunity to grow my skills. I am passionate about my work and am always looking to learn new skills and looking for ways to collaborate with others. I enjoy solving user problems and creating prototyping. My skills include user research and usability testing as well as collaboration and prototyping. What makes me unique is my creativity and my passion for wanting to be the best. I am from San Antonio, TX and would ideally want to work for a company that can help me hone my skills and continue to develop as a UX/UI designer.</p>
-      <button>Download Resume</button> <img src="images/image 7.png" width="50px">
-    </div>
-  </section>
-    
-    <!--My Skills section coded using CSS flex-->
-
-    <section id="mySkills">
-
-        <h1>My Skills</h1>
-        <div class="flexContainer">
-        <div class="skillCard">
-            <img src="images/image 8.png" width="200px">
-            <h3>User Research and Usability Testing</h3>
-            <p>I have a strong understanding of user research and the process it takes to make if effective. I am an effective communicator both verbally and in writing and am able to run usability tests effectively in a one on one setting or virtual setting. I am able to know which tests to run and am effective in understanding who the user is.</p>
-        </div>
-        <div class="flexContainer"></div>
-        <div class="skillCard">
-            <img src="images/image 5.png" width="200px">
-            <h3>Prototyping/Wireframing</h3>
-            <p> I am good at focusing prioritizing page elements based on user needs to make the wireframing the best it can be. I am also skilled at prototyping at multiple levels and making sure it is done well to be able to run tests and gather effective feedback needed in order to improve the prototype.</p>
-        <div class="flexContainer"></div>
-        <div class="skillCard">
-            <img src="images/Image 9.png" width="200px">
-            <h3>Information Architecture</h3>
-            <p>I am skilled at effectively organizing and structuring content whether it be through a presentation, a prototype, or a usability testing. I make it easier for the user to find where they are, locate relative information needed, find where they need to go and whats next. I am also skilled at working on projects with very bad information architecture and finding the important and relevant information.</p>
-    </div>
-        </div>
-    </section>
-    <!-- My Work Section coded Using CSS flex-->
-
-    <section id="myWork-Grid">
-        <h1> My Work</h1>
-        <div class="project-card">
-            <img src="images/Screenshot 2023-07-30 at 5.11.59 PM.png" width="150px">
-            <div class="project-details">
-                <h2>Travel App</h2>
-                <p>This was the first project that I worked on solo. It was a app that I created to help travelers stay safe when going out of the country. The app would give the user useful information in that country as far as important phone numbers, an warnings that were important and tips for travling safely. It would give the user emergeny and non emergency numbers for the country they were going to and even break it down by country or city.</p>
-                <button>View Case Study</button>  <img src="images/image 3.png" width="100px">
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="images/Screenshot 2023-07-30 at 5.08.42 PM.png" width="150px">
-            <div class="project-details">
-                <h2>Project Stay Redesign</h2>
-                <p>This was the second group project that I did. It was a redesign of a non profit organzation. We were tasked with making the website fit more with the users that would it. For this project, I worked on the mobile redesign of the website and worked on making the information architecture more relevant and easier to locate the information that the user would need as well as make the design more modern since the original website was very outdated.  </p>
-                <button>View Case Study</button> <img src="images/image 3.png" width="100px">
-        </div>
-        <div class="project-card">
-            <img src="images/Screenshot 2023-07-30 at 5.20.32 PM.png" width="150px">
-            <div class="project-details">
-                <h2>Shelfie App</h2>
-                <p>This was the first group project that I did. We were tasked with creating an app that would improve the lives of people. My group and I decided to create an app that would aim at reducing food waste and therefore help people save money and eat healthier. For this project, I worked on the interview plan and ran some of the interviews, came up with the team and app name, did wireframing, and helped along with all the user research steps.</p>
-                <button>View Case Study</button> <img src="images/image 3.png" width="100px">
-        </div>
-        </div>
-    <h4>View All Projects</h4>
-</section>
-
-<footer>
-    <ul class="inline-block">
-      <li class="inline-block">About</li>
-      <li class="inline-block">Skills</li>
-      <li class="inline-block">Work</li>
-      <li class="inline-block">Contact</li>
-    </ul>
-  </footer>
-  
-</body>
-<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <script src="js/index.js"></script>
-
-
-
-
-
-<script>
+  <script>
     $(document).ready(function(){
       $("#flip").click(function(){
         $("#panel").slideDown("slow");
@@ -122,7 +28,150 @@
     }
     </style>
     </head>
-    <body>
      
     <div id="flip">Call to Action</div>
     <div id="panel">Get to know more about me!</div>
+
+  <!--Navigation Bar-->
+    <header class="navigation">
+      <div class="inline-block logo">
+        <img src="images/2 1.png" width="250px" height="150px">
+    </div>
+      <nav class="inline-block">
+        <ul>
+          <li class="inline-block"><a href="#aboutMe-container">About</a></li>
+          <li class="inline-block"><a href="#mySkills-container">Skills</a></li>
+          <li class="inline-block"><a href="#myWork-Grid">Work</a></li>
+          <li class="inline-block"><a href="#contactMeSection">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+<!--Hero Section-->
+<section id="hero-container" class="hero">
+  <h1>Hi, Its a pleasure to meet you.</h1>
+  <div class="heroLogoContainer"><img src="images/2 1.png"></div>
+  <h3>Also know as Fuego</h3>
+</section>
+
+  <!--About Me Section-->
+  <section id="aboutMe-container" class="aboutMe">
+    <div class="cs-container"></div>
+    <h2>Get to Know Me</h2>
+    <div class="aboutMeCard"></div>
+    <img src="images/IMG_3327 2.JPG" height="700px">
+    <div>
+      <p>Hello, I am Diego Fernandez, an up and coming UX/UI Designer. I recently graduated from UTSA and am looking at an opportunity to grow my skills. I am passionate about my work and am always looking to learn new skills and looking for ways to collaborate with others. I enjoy solving user problems and creating prototyping. My skills include user research and usability testing as well as collaboration and prototyping. What makes me unique is my creativity and my passion for wanting to be the best. I am from San Antonio, TX and would ideally want to work for a company that can help me hone my skills and continue to develop as a UX/UI designer.</p>
+      <p>More info about me</p>
+      <a href="Master Resume.pdf" class="button">Download Resume</a>
+    </div>
+  </section>
+    
+    <!--My Skills section coded using CSS flex-->
+
+    <section id="mySkills-container" class="mySkills">
+        <h1>My Skills</h1>
+        <div class="flexContainer">
+
+          <!--Child Container-->
+        <div class="skillCard">
+          <h2 id="emphasisColor" style="padding-bottom: 1%;">User Research and Usability Testing</h2>
+          <div class="skillImage"></div><img src="images/image 8.png" width="200px">
+          <p>I have a strong understanding of user research and the process it takes to make if effective. I am an effective communicator both verbally and in writing and am able to run usability tests effectively in a one on one setting or virtual setting. I am able to know which tests to run and am effective in understanding who the user is.</p>
+        </div>
+
+        <div class="flexContainer"></div>
+        <div class="skillCard">
+          <h2 id="emphasisColor" style="padding-bottom: 1%;">Prototyping and Wireframing</h2>
+            <div class="skillImage"><img src="images/image 5.png" width="200px">
+            <p> I am good at focusing prioritizing page elements based on user needs to make the wireframing the best it can be. I am also skilled at prototyping at multiple levels and making sure it is done well to be able to run tests and gather effective feedback needed in order to improve the prototype.</p>
+
+        <div class="flexContainer"></div>
+        <div class="skillCard">
+          <h2 id="emphasisColor" style="padding-bottom: 1%;">Information Architecture</h2>
+          <div class="skillImage"><img src="images/Image 9.png" width="200px">
+            <p>I am skilled at effectively organizing and structuring content whether it be through a presentation, a prototype, or a usability testing. I make it easier for the user to find where they are, locate relative information needed, find where they need to go and whats next. I am also skilled at working on projects with very bad information architecture and finding the important and relevant information.</p>
+    </div>
+        </div>
+       
+    </section>
+
+    <!-- My Work Section coded Using CSS flex-->
+
+    <section id="myWork-Grid">
+      <div class="sectionTitle"><h1>My Work</h1></div>
+      
+        <div class="project-card1">
+            <img src="images/Screenshot 2023-07-30 at 5.11.59 PM.png" style="width: 150px;"></div>
+            <div class="project-details">
+                <h2>Travel App</h2>
+                <p>This was the first project that I worked on solo. It was a app that I created to help travelers stay safe when going out of the country. The app would give the user useful information in that country as far as important phone numbers, an warnings that were important and tips for travling safely. It would give the user emergeny and non emergency numbers for the country they were going to and even break it down by country or city.</p>
+                <button>View Case Study</button>  <img src="images/image 3.png" width="100px">
+            </div>
+
+        <div class="project-card2">
+            <img src="images/Screenshot 2023-07-30 at 5.08.42 PM.png"  style="width: 150px;"></div>
+            <div class="project-details">
+                <h2>Project Stay Redesign</h2>
+                <p>This was the second group project that I did. It was a redesign of a non profit organzation. We were tasked with making the website fit more with the users that would it. For this project, I worked on the mobile redesign of the website and worked on making the information architecture more relevant and easier to locate the information that the user would need as well as make the design more modern since the original website was very outdated.  </p>
+                <button>View Case Study</button> <img src="images/image 3.png" width="100px"> </div>
+
+        <div class="project-card3">
+            <img src="images/Screenshot 2023-07-30 at 5.20.32 PM.png"  style="width: 150px;"></div>
+            <div class="project-details">
+                <h2>Shelfie App</h2>
+                <p>This was the first group project that I did. We were tasked with creating an app that would improve the lives of people. My group and I decided to create an app that would aim at reducing food waste and therefore help people save money and eat healthier. For this project, I worked on the interview plan and ran some of the interviews, came up with the team and app name, did wireframing, and helped along with all the user research steps.</p>
+                <button>View Case Study</button> <img src="images/image 3.png" width="100px">
+        </div>
+    <h4>View All Projects</h4>
+</section>
+
+<!--Contact Me Section-->
+
+<section id="contactMeSection">
+  <div class="contactMe-container">
+    <div class="contactCard">
+      <div class="headline"><h1> Find Me on Socials</h1></div>
+      <div class="socialIntro"><h3> My LinkedIn: https://www.linkedin.com/in/diego-fernandez-vargas-b15831243/ </h3>
+      <div class="socialIntro"><h3> My Twitter: https://twitter.com/diegofuego2021 </h3>
+      <div class="socialIntro"><h3> My Instagram: https://www.instagram.com/diego_since_97/ </h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="contactInfo">
+  <div class="contactSubtitle"><h5> Other Contact Information</h5></div>
+  <div class="icon1"><img src="images/Screenshot 2023-08-07 at 8.40.02 PM.png" height="80px" width="80px"></div>
+  <div class="numberInfo"><p>Phone number: (210) 313-2388</p></div>
+  <div class="icon2"><img src="images/Screenshot 2023-08-07 at 8.41.49 PM.png" height="80px" width="80px"></div>
+  <div class="emailIntro"><p id="emphasisColor"> Email: Diegodaniel.fernandez97@gmail.com </p></div>
+</div>
+
+<!--Footer Section-->
+<footer>
+  </div>
+    <ul class="inline-block">
+      <li class="inline-block"> <a href="#https://www.linkedin.com/in/diego-fernandez-vargas-b15831243"><img src="images/LI.png" height="36px" width="36px"></a></li>
+      <li class="inline-block"> <a href="#https://twitter.com/diegofuego2021"><img src="images/insta.png" height="36px" width="36px"></a></li>
+      <li class="inline-block"> <a href="# https://www.instagram.com/diego_since_97/"><img src="images/twitter.png" height="36px" width="36px"></a></li>
+    </ul>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/index.js"></script>
+
+<!--  Background Image -->
+<style>
+    body {
+      background-image: url("images/lol.jpeg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      background-color: #1c1c1c;
+    }
+  </style>
+</body>
+</html>

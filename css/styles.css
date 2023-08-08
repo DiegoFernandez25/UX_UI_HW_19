@@ -3,49 +3,76 @@ html {
 }
 
 body {
-  background-color: #1b418c;
-
+height: 100%;
+margin: 0;
+font-family: rubik, lora;
+font-size: 12px;
 }
 
 .inline-block {
-  display: inline-flex;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 10px;
 }
   
 .logo {
-  vertical-align: top;
-  padding: 20px;
-  
+  vertical-align: left;
+  text-align: center;
 }
 
 nav {
-  width: 88%;
+  width: 73%;
   background-color: #79818C;
+  color: black;
 }
 
 ul {
+  display: inline-block;
   width: 50%;
   margin-left: auto;
-  padding: 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: rubik, lora;
+  color: black;
+}
+
+.navigation{
+  background-color: #79818C;
+  width: auto;
+  padding: 0 5%;
+  text-align: right;
 }
 
 .logo img {
   width: 150px;
   padding: 25px;
-  margin-left: auto;
-  
 }
 
-.heroImg {
-  height: 600px;
-  padding: 5px;
-  background-color: #79818C;
-  width: 40%;
-  margin-left: 40%;
-  font-size: larger;
+.hero {
+  padding: 5%;
+  background-color: rgba(250, 250, 255, 0.5);
+  text-align: center;
+}
+.heroLogoContainer{ 
+  display: flex;
+  max-width: 600px;
+  max-height: 300px;
+  justify-content: center;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutMe {
+  margin: 1% 5%;
+  padding: 10px;
+  text-align: center;
 }
 
 .content {
   width: 500px;
+  color: black;
 }
 
 footer {
@@ -73,8 +100,9 @@ li {
   flex-direction: column;
   justify-content: space-between;
   width: auto;
-  padding: auto;
   background-color: #79818C;
+  color: black;
+  
 }
 
 #myWork-Grid{
@@ -82,6 +110,8 @@ li {
   justify-content: space-evenly;
   text-align:center;
   font-size: large;
+   color: black;
+   background-color: rgba(250, 250, 255, 0.5);
 }
 
 .project-card {
@@ -89,7 +119,6 @@ li {
   justify-content: space-evenly;
   text-align:center;
 }
-
 
 div {
   display: block;
